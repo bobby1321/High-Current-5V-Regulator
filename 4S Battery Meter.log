@@ -11,8 +11,43 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-005
 vernier = 0.5
+vernier = 0.25
+Gmin = 6.15678e-006
+vernier = 0.333333
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 4.24051e-006
+vernier = 0.296296
+Gmin = 2.22479e-006
+vernier = 0.395061
+vernier = 0.526748
+Gmin = 7.70821e-007
+vernier = 0.702331
+vernier = 0.936441
+Gmin = 1.49718e-007
+vernier = 1
+Gmin = 1.69199e-008
+Gmin = 1.81676e-009
+Gmin = 1.95073e-010
+Gmin = 2.09458e-011
+Gmin = 2.24904e-012
+Gmin = 2.41489e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 2.39452e-005
 vernier = 0.666667
-Gmin = 5.35545e-006
+Gmin = 6.14784e-006
 vernier = 0.888888
 vernier = 1
 Gmin = 8.09366e-007
@@ -52,142 +87,22 @@ Gmin = 1.33182e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-vernier = 0.5
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-vernier = 0.03125
-vernier = 0.015625
-vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00195313
-Gmin = 2.05588e-006
-vernier = 0.00260417
-Gmin = 2.04387e-006
-vernier = 0.00347222
-vernier = 0.00462963
-Gmin = 2.02387e-006
-vernier = 0.00617283
-vernier = 0.00823044
-Gmin = 1.99239e-006
-vernier = 0.0109739
-Gmin = 1.94386e-006
-vernier = 0.0146319
-vernier = 0.0195092
-Gmin = 1.86508e-006
-vernier = 0.0260122
-vernier = 0.034683
-Gmin = 1.74615e-006
-vernier = 0.046244
-Gmin = 1.57446e-006
-vernier = 0.0616586
-vernier = 0.0822114
-Gmin = 1.32413e-006
-vernier = 0.109615
-vernier = 0.146154
-Gmin = 1.0061e-006
-vernier = 0.194871
-Gmin = 6.5516e-007
-vernier = 0.259828
-vernier = 0.346438
-Gmin = 3.22152e-007
-vernier = 0.461917
-vernier = 0.615889
-Gmin = 1.06354e-007
-vernier = 0.821185
-Gmin = 1.95618e-008
-vernier = 1
-Gmin = 2.10044e-009
-Gmin = 2.25533e-010
-Gmin = 2.42164e-011
-Gmin = 2.60021e-012
-Gmin = 2.79196e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
 
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-vernier = 0.5
-Gmin = 2.39452e-005
-vernier = 0.25
-vernier = 0.125
-vernier = 0.166667
-Gmin = 1.81641e-005
-vernier = 0.222222
-vernier = 0.296296
-Gmin = 1.0817e-005
-vernier = 0.395061
-Gmin = 4.72509e-006
-vernier = 0.526748
-vernier = 0.702331
-Gmin = 1.26005e-006
-vernier = 0.936441
-vernier = 1
-Gmin = 1.75628e-007
-Gmin = 1.88579e-008
-Gmin = 2.02486e-009
-Gmin = 2.17417e-010
-Gmin = 2.3345e-011
-Gmin = 2.50665e-012
-Gmin = 2.69149e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
-Gmin = 2.18725e-010
-Gmin = 2.34854e-011
-Gmin = 2.52173e-012
-Gmin = 2.70769e-013
-Gmin = 0
-Gmin stepping succeeded in finding the operating point.
-
-
-Date: Fri Aug 30 23:29:55 2024
-Total elapsed time: 0.161 seconds.
+Date: Sat Aug 31 13:53:26 2024
+Total elapsed time: 0.198 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 6925
+totiter = 4619
 traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
 matrix size = 65
-fillins = 105
+fillins = 104
 solver = Normal
-Thread vector: 3.2/2.7[2] 0.0/0.0[0] 0.9/0.9[1] 0.2/0.4[1]  2592/500
-Matrix Compiler1:     559 opcodes  2.6/[0.9]/0.9
-Matrix Compiler2: off  [0.4]/0.5/0.5
+Thread vector: 6.2/4.7[2] 0.0/0.0[0] 2.7/2.3[2] 0.3/1.1[1]  2592/500
+Matrix Compiler1: 10.58 KB object code size  2.4/1.7/[0.8]
+Matrix Compiler2: 7.35 KB object code size  0.8/1.2/[0.5]
 
