@@ -2355,21 +2355,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
+			(property "Value" "SolderJumper_2_Open"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2395,7 +2396,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2404,7 +2405,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch lever"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2413,10 +2414,44 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2427,7 +2462,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
+						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -2437,21 +2472,34 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "SW_SPST_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2469,7 +2517,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2985,6 +3033,12 @@
 		(uuid "30c1e0fd-745a-4299-a9a2-fc2ab9df9912")
 	)
 	(junction
+		(at 201.93 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31fd4457-2af5-4d00-9b18-445274b9bac5")
+	)
+	(junction
 		(at 154.94 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3001,6 +3055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c0635a6-a0b3-49a9-8cb1-2254a61c86aa")
+	)
+	(junction
+		(at 78.74 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "408783dd-0c01-40fd-b193-4d5a6502988f")
 	)
 	(junction
 		(at 234.95 107.95)
@@ -3033,12 +3093,6 @@
 		(uuid "4a2b0f6e-56f7-4a48-8fda-a56fadfb37c8")
 	)
 	(junction
-		(at 44.45 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a5b4718-7862-4ca6-94c9-950b3b29eabf")
-	)
-	(junction
 		(at 163.83 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3057,16 +3111,16 @@
 		(uuid "57ad3a27-9747-4b2c-af6e-53465c9f2616")
 	)
 	(junction
+		(at 78.74 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4d66cf-5588-4c73-a730-31faf7503d00")
+	)
+	(junction
 		(at 243.84 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d629b50-233c-401f-ac8c-122aba0cc8bf")
-	)
-	(junction
-		(at 208.28 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e4bac9f-1b2b-436a-9dd7-edafe5a5631c")
 	)
 	(junction
 		(at 231.14 60.96)
@@ -3075,10 +3129,22 @@
 		(uuid "5fdb49ba-a936-4da9-b38a-6bc6d91d0878")
 	)
 	(junction
+		(at 213.36 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64beecce-65e3-4528-9de5-f246e2d85fdb")
+	)
+	(junction
 		(at 156.21 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69cd13dc-3c7a-47e8-953e-ac5e66061eb5")
+	)
+	(junction
+		(at 201.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7392a458-fa67-424c-9417-04a8dd8f232b")
 	)
 	(junction
 		(at 139.7 125.73)
@@ -3117,16 +3183,16 @@
 		(uuid "7d770e1c-608d-4ec0-9904-aeae6140ecc5")
 	)
 	(junction
+		(at 213.36 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802c0400-3896-4c64-a9b9-8449738fc6da")
+	)
+	(junction
 		(at 123.19 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81b5be6e-c324-4e7a-9250-17a79545038d")
-	)
-	(junction
-		(at 208.28 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "838885d2-fff2-4fff-b0d0-5ea66089d11b")
 	)
 	(junction
 		(at 222.25 105.41)
@@ -3183,6 +3249,12 @@
 		(uuid "a9a60f79-e547-4787-afab-e1199294ef6f")
 	)
 	(junction
+		(at 213.36 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5104e6e-aee6-4738-96d0-29c68823f88d")
+	)
+	(junction
 		(at 72.39 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3213,6 +3285,12 @@
 		(uuid "c3d64422-8fc6-4246-a4f7-6cc574db4846")
 	)
 	(junction
+		(at 213.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6196ea7-8c8d-41cb-8780-5fd0e83f5196")
+	)
+	(junction
 		(at 184.15 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3229,12 +3307,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cffa291e-230f-4ff4-843e-be6742ebe51e")
-	)
-	(junction
-		(at 208.28 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4f6bdf1-758b-4081-b4e0-c15aa33120bb")
 	)
 	(junction
 		(at 83.82 95.25)
@@ -3267,22 +3339,16 @@
 		(uuid "e32611bb-ad88-4fb5-8637-bfab370da0cb")
 	)
 	(junction
-		(at 54.61 90.17)
+		(at 201.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f31d16b0-c48a-4bb7-8ace-104898399dff")
+		(uuid "f2af37e8-8ead-488f-bfc2-c93237aa9862")
 	)
 	(junction
 		(at 113.03 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ce60fd-b3a5-4165-9aad-d80f0e66a2ca")
-	)
-	(junction
-		(at 201.93 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9955232-bdda-4ee9-a9ef-b0a19c50cd47")
 	)
 	(junction
 		(at 187.96 105.41)
@@ -3418,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 34.29) (xy 208.28 34.29)
+			(xy 201.93 34.29) (xy 213.36 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3478,17 +3544,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 72.39) (xy 208.28 72.39)
+			(xy 201.93 72.39) (xy 213.36 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20fc9041-52eb-49f6-ac49-31d83b36a889")
+		(uuid "21906ac8-ff8c-489e-9dd1-5350d922059c")
 	)
 	(wire
 		(pts
-			(xy 196.85 35.56) (xy 208.28 35.56)
+			(xy 196.85 35.56) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3515,6 +3581,26 @@
 			(type default)
 		)
 		(uuid "249b4bc8-4f60-44eb-a293-933c4194acb9")
+	)
+	(wire
+		(pts
+			(xy 210.82 97.79) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f6c098-6827-47b4-afd8-134b89faf967")
+	)
+	(wire
+		(pts
+			(xy 210.82 46.99) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ddf60d-f3f5-46b9-8d45-94b600a86793")
 	)
 	(wire
 		(pts
@@ -3698,6 +3784,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41693edc-0d4f-4e0e-b40e-5de9b6c9b57a")
+	)
+	(wire
+		(pts
 			(xy 95.25 87.63) (xy 99.06 87.63)
 		)
 		(stroke
@@ -3708,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 234.95 99.06)
+			(xy 209.55 99.06) (xy 234.95 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3758,16 +3854,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 34.29) (xy 208.28 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502f774a-2897-4575-800a-48bf39864338")
-	)
-	(wire
-		(pts
 			(xy 241.3 58.42) (xy 241.3 60.96)
 		)
 		(stroke
@@ -3788,6 +3874,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 46.99) (xy 210.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548b1ff6-c6ed-4448-8787-2c1dc5af4a17")
+	)
+	(wire
+		(pts
 			(xy 205.74 127) (xy 210.82 127)
 		)
 		(stroke
@@ -3805,6 +3901,16 @@
 			(type default)
 		)
 		(uuid "56cb7d22-f587-4724-a2ac-0af749f6e294")
+	)
+	(wire
+		(pts
+			(xy 87.63 74.93) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574a5ed3-1917-4b04-8715-d828c95373dd")
 	)
 	(wire
 		(pts
@@ -3898,6 +4004,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 34.29) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611e16d4-c6da-4aeb-884e-0505307f2353")
+	)
+	(wire
+		(pts
 			(xy 43.18 92.71) (xy 64.77 92.71)
 		)
 		(stroke
@@ -3905,16 +4021,6 @@
 			(type default)
 		)
 		(uuid "6225a2d2-904c-4bdf-b120-9f3f6d89feec")
-	)
-	(wire
-		(pts
-			(xy 78.74 54.61) (xy 83.82 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630b3e04-dfb7-410d-8633-aa5105a311f9")
 	)
 	(wire
 		(pts
@@ -3938,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 207.01 99.06)
+			(xy 209.55 54.61) (xy 209.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3978,16 +4084,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 54.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2109e2-b5a7-4c08-ab13-50acba8ce36a")
-	)
-	(wire
-		(pts
 			(xy 254 50.8) (xy 254 53.34)
 		)
 		(stroke
@@ -4008,7 +4104,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 90.17) (xy 44.45 90.17)
+			(xy 43.18 90.17) (xy 55.88 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4188,16 +4284,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 81.28) (xy 44.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86363e94-8f91-4744-ba3d-21b2ebfc4a28")
-	)
-	(wire
-		(pts
 			(xy 63.5 90.17) (xy 64.77 90.17)
 		)
 		(stroke
@@ -4258,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 55.88 73.66)
+			(xy 55.88 73.66) (xy 86.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4275,16 +4361,6 @@
 			(type default)
 		)
 		(uuid "8f202135-304e-43a2-9981-045ab7a291c7")
-	)
-	(wire
-		(pts
-			(xy 208.28 31.75) (xy 226.06 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920ff474-7355-49f5-b77d-6efebed688fb")
 	)
 	(wire
 		(pts
@@ -4388,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 97.79) (xy 242.57 97.79)
+			(xy 213.36 97.79) (xy 242.57 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4435,6 +4511,16 @@
 			(type default)
 		)
 		(uuid "a850a1bc-6519-4542-97b4-d7feaa19fd70")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91aa866-66b0-4cf3-9d38-a30fd1265f07")
 	)
 	(wire
 		(pts
@@ -4578,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 72.39) (xy 213.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c145b3c7-6456-442e-91d4-7bd9119bd172")
+	)
+	(wire
+		(pts
 			(xy 43.18 62.23) (xy 30.48 62.23)
 		)
 		(stroke
@@ -4698,16 +4794,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 90.17) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2ee799-87a3-4d07-b8c5-4a540069b55a")
-	)
-	(wire
-		(pts
 			(xy 261.62 60.96) (xy 264.16 60.96)
 		)
 		(stroke
@@ -4768,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 31.75) (xy 208.28 34.29)
+			(xy 226.06 31.75) (xy 226.06 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4845,16 +4931,6 @@
 			(type default)
 		)
 		(uuid "da1411f4-976b-460d-ade9-8948911aff55")
-	)
-	(wire
-		(pts
-			(xy 78.74 46.99) (xy 85.09 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da74dad8-f082-42cf-85fe-1222898708d0")
 	)
 	(wire
 		(pts
@@ -4948,7 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 63.5 74.93)
+			(xy 63.5 74.93) (xy 87.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5164,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 35.56) (xy 208.28 72.39)
+			(xy 213.36 35.56) (xy 213.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fed34c-9ca2-4de0-b7d6-e07ef745b83f")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 213.36 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5115,16 +5201,6 @@
 			(type default)
 		)
 		(uuid "fb46a8f6-5b46-41a9-b1df-c778686e44f3")
-	)
-	(wire
-		(pts
-			(xy 208.28 72.39) (xy 208.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1fb09f-dda6-4276-b538-0205a8302a1d")
 	)
 	(wire
 		(pts
@@ -6593,6 +6669,142 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 82.55 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5f1efb-7acc-4303-9dd7-96ad59dda5ea")
+		(property "Reference" "R13"
+			(at 82.55 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 82.55 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 82.55 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18cef64b-458f-4266-9dcb-c479fa71b31d")
+		)
+		(pin "2"
+			(uuid "a10f951f-5377-4924-8710-2047b06aba28")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6adf75c8-fbe2-4032-9193-516647c34562")
+		(property "Reference" "R16"
+			(at 205.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 205.74 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 205.74 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb711e6-9426-4fe0-ae03-65124ea74cc0")
+		)
+		(pin "2"
+			(uuid "107ef72f-7f22-47ac-a835-8c2606885ac4")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 166.37 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7134,74 +7346,6 @@
 			(project "5v-regulator-v1"
 				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 49.53 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e863419-45f0-432e-86c9-936dcf78ee19")
-		(property "Reference" "SW2"
-			(at 49.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 49.53 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4cee927-31ba-4063-a18b-0e8156144023")
-		)
-		(pin "1"
-			(uuid "78165263-66ae-4285-bdd4-e629358cd6ea")
-		)
-		(instances
-			(project "5v-regulator-v1"
-				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7821,6 +7965,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 213.36 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a74e66cc-0e1f-4bef-837b-77ca5e1c07a7")
+		(property "Reference" "JP1"
+			(at 210.82 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 210.82 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1dc2b67-de13-4f9f-b253-5aaccb7c6b23")
+		)
+		(pin "1"
+			(uuid "2da9aadc-8a01-4a66-972d-640474c09709")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 222.25 109.22 0)
 		(unit 1)
@@ -7885,74 +8099,6 @@
 			(project "5v-regulator-v1"
 				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 49.53 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6a0fcca-8696-4456-9c99-80c92122e3af")
-		(property "Reference" "SW1"
-			(at 49.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 49.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 49.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 49.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd40e7f4-d065-451f-8b6a-015810c25e86")
-		)
-		(pin "1"
-			(uuid "5d04ffbd-8d73-4ee3-8b23-2bf4fb66f821")
-		)
-		(instances
-			(project "5v-regulator-v1"
-				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8477,6 +8623,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 82.55 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c31bf9-59a7-45c1-9fe6-2b31c82dc730")
+		(property "Reference" "R14"
+			(at 82.55 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 82.55 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 82.55 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f404e27a-923d-42e7-b70f-ba4c193e88f8")
+		)
+		(pin "2"
+			(uuid "1c044360-1073-4aac-80ce-1f5679f179a3")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 109.22 0)
 		(unit 1)
@@ -8608,6 +8822,74 @@
 			(project "5v-regulator-v1"
 				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce8cbf3c-5c1a-4766-9ca5-e148b59b8751")
+		(property "Reference" "R15"
+			(at 205.74 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 205.74 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 205.74 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304842ee-fd41-456d-b95d-de30abf9f905")
+		)
+		(pin "2"
+			(uuid "167d42f2-a267-4ce6-bafb-161a64a6f881")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9319,6 +9601,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 78.74 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19f36f5-dfcf-475a-a38b-44237dfe53f6")
+		(property "Reference" "C12"
+			(at 82.55 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 82.55 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 79.7052 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d59af7d-8a70-4e66-9d31-ccffc4a0bf4b")
+		)
+		(pin "2"
+			(uuid "02330949-81fa-4d65-932e-dea226489904")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 210.82 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9382,6 +9734,76 @@
 			(project "5v-regulator-v1"
 				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 201.93 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8ec65c6-703c-4ae8-82cf-344241c42ae6")
+		(property "Reference" "C13"
+			(at 205.74 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 205.74 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 202.8952 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d05e7bf0-e2e1-48d8-84bd-09967fba74d4")
+		)
+		(pin "1"
+			(uuid "a50a4248-adf5-486e-a6c9-7db42e1a2ba5")
+		)
+		(instances
+			(project "5v-regulator-v1"
+				(path "/4305ae50-7d96-42de-9eb2-54fda8fc6884"
+					(reference "C13")
 					(unit 1)
 				)
 			)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -124,7 +124,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "5v-regulator-v1.kicad_pro",
+    "filename": "4S-Li-ion-battery-meter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -561,14 +561,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -582,7 +574,7 @@
   },
   "sheets": [
     [
-      "4305ae50-7d96-42de-9eb2-54fda8fc6884",
+      "da1522a7-6190-4627-aeab-6c661b849989",
       "Root"
     ]
   ],
