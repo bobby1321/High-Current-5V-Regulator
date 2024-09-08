@@ -2766,7 +2766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3214J_Horizontal"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -2865,46 +2865,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade05")
+			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade06")
 		)
 		(pin "5"
-			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58a")
+			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58b")
 		)
 		(pin "1"
-			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a4")
+			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a5")
 		)
 		(pin "6"
-			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9720")
+			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9721")
 		)
 		(pin "7"
-			(uuid "d89c4a81-cf9b-4a71-b22a-190c53078978")
+			(uuid "d89c4a81-cf9b-4a71-b22a-190c53078979")
 		)
 		(pin "11"
-			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf5")
+			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf6")
 		)
 		(pin "13"
-			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922c")
+			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922d")
 		)
 		(pin "14"
-			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edb")
+			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edc")
 		)
 		(pin "8"
-			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d7")
+			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d8")
 		)
 		(pin "10"
-			(uuid "6727845a-b497-4724-a504-2e097821e636")
+			(uuid "6727845a-b497-4724-a504-2e097821e637")
 		)
 		(pin "4"
-			(uuid "e11b9a72-fabf-4948-b512-a36d07da0592")
+			(uuid "e11b9a72-fabf-4948-b512-a36d07da0593")
 		)
 		(pin "12"
-			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7a")
+			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7b")
 		)
 		(pin "3"
-			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aeda")
+			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aedb")
 		)
 		(pin "9"
-			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea95")
+			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea96")
 		)
 		(instances
 			(project "4S-Li-ion-battery-meter"
@@ -3664,46 +3664,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade05")
+			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade07")
 		)
 		(pin "5"
-			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58a")
+			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58c")
 		)
 		(pin "1"
-			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a4")
+			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a6")
 		)
 		(pin "6"
-			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9720")
+			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9722")
 		)
 		(pin "7"
-			(uuid "d89c4a81-cf9b-4a71-b22a-190c53078978")
+			(uuid "d89c4a81-cf9b-4a71-b22a-190c5307897a")
 		)
 		(pin "11"
-			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf5")
+			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf7")
 		)
 		(pin "13"
-			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922c")
+			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922e")
 		)
 		(pin "14"
-			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edb")
+			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edd")
 		)
 		(pin "8"
-			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d7")
+			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d9")
 		)
 		(pin "10"
-			(uuid "6727845a-b497-4724-a504-2e097821e636")
+			(uuid "6727845a-b497-4724-a504-2e097821e638")
 		)
 		(pin "4"
-			(uuid "e11b9a72-fabf-4948-b512-a36d07da0592")
+			(uuid "e11b9a72-fabf-4948-b512-a36d07da0594")
 		)
 		(pin "12"
-			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7a")
+			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7c")
 		)
 		(pin "3"
-			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aeda")
+			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aedc")
 		)
 		(pin "9"
-			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea95")
+			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea97")
 		)
 		(instances
 			(project "4S-Li-ion-battery-meter"
@@ -3768,46 +3768,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade05")
+			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade08")
 		)
 		(pin "5"
-			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58a")
+			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58d")
 		)
 		(pin "1"
-			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a4")
+			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a7")
 		)
 		(pin "6"
-			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9720")
+			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9723")
 		)
 		(pin "7"
-			(uuid "d89c4a81-cf9b-4a71-b22a-190c53078978")
+			(uuid "d89c4a81-cf9b-4a71-b22a-190c5307897b")
 		)
 		(pin "11"
-			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf5")
+			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf8")
 		)
 		(pin "13"
-			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922c")
+			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922f")
 		)
 		(pin "14"
-			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edb")
+			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7ede")
 		)
 		(pin "8"
-			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d7")
+			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0da")
 		)
 		(pin "10"
-			(uuid "6727845a-b497-4724-a504-2e097821e636")
+			(uuid "6727845a-b497-4724-a504-2e097821e639")
 		)
 		(pin "4"
-			(uuid "e11b9a72-fabf-4948-b512-a36d07da0592")
+			(uuid "e11b9a72-fabf-4948-b512-a36d07da0595")
 		)
 		(pin "12"
-			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7a")
+			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7d")
 		)
 		(pin "3"
-			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aeda")
+			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aedd")
 		)
 		(pin "9"
-			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea95")
+			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea98")
 		)
 		(instances
 			(project "4S-Li-ion-battery-meter"
@@ -4449,46 +4449,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade05")
+			(uuid "f110e2a8-9ac4-4143-8641-5afbb20ade09")
 		)
 		(pin "5"
-			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58a")
+			(uuid "3b21a00b-b7b7-4226-9429-4c15db46e58e")
 		)
 		(pin "1"
-			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a4")
+			(uuid "9fac82f4-7c37-4e6a-a785-7877d34938a8")
 		)
 		(pin "6"
-			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9720")
+			(uuid "95a6e7a5-b74b-4f82-90df-3f0f252d9724")
 		)
 		(pin "7"
-			(uuid "d89c4a81-cf9b-4a71-b22a-190c53078978")
+			(uuid "d89c4a81-cf9b-4a71-b22a-190c5307897c")
 		)
 		(pin "11"
-			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf5")
+			(uuid "c17b1f5d-9b8c-4eb7-9d9b-54c30d3b5cf9")
 		)
 		(pin "13"
-			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f1922c")
+			(uuid "1edf5868-6b7d-48aa-8adb-4ca909f19230")
 		)
 		(pin "14"
-			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edb")
+			(uuid "43831956-0c41-4d7a-9ee3-c8ba078c7edf")
 		)
 		(pin "8"
-			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0d7")
+			(uuid "6080ef00-5feb-4474-97c1-f15c4cd0c0db")
 		)
 		(pin "10"
-			(uuid "6727845a-b497-4724-a504-2e097821e636")
+			(uuid "6727845a-b497-4724-a504-2e097821e63a")
 		)
 		(pin "4"
-			(uuid "e11b9a72-fabf-4948-b512-a36d07da0592")
+			(uuid "e11b9a72-fabf-4948-b512-a36d07da0596")
 		)
 		(pin "12"
-			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7a")
+			(uuid "e7343f21-7f55-4b1b-895a-af3ebc233c7e")
 		)
 		(pin "3"
-			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aeda")
+			(uuid "fde72f01-97f9-46b9-a919-4603ddb3aede")
 		)
 		(pin "9"
-			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea95")
+			(uuid "c39b8ae4-908d-4db2-972e-07131cdfea99")
 		)
 		(instances
 			(project "4S-Li-ion-battery-meter"
