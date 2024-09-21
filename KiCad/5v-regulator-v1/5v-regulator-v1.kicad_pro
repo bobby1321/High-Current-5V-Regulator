@@ -54,10 +54,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         "courtyards_overlap|189918882|63096014|1f850ac2-80d4-40cd-af18-3fad9902b449|b2432522-b910-4b40-b615-cf0f50f820b6",
-        "courtyards_overlap|189918883|75403984|11645c9a-5413-4eb3-a87b-534e404ae1d4|bafe8d1b-2df8-4262-a04d-1dd1088773aa",
-        "courtyards_overlap|194415281|89069072|11645c9a-5413-4eb3-a87b-534e404ae1d4|11891a1b-1386-4bb0-b6e2-eddb80b4f2db",
-        "courtyards_overlap|194552476|49200907|b2432522-b910-4b40-b615-cf0f50f820b6|deb76afd-cf18-4570-b02d-bf23f0304a11",
-        "courtyards_overlap|200641747|52373151|1f850ac2-80d4-40cd-af18-3fad9902b449|deb76afd-cf18-4570-b02d-bf23f0304a11"
+        "courtyards_overlap|189918883|75403984|11645c9a-5413-4eb3-a87b-534e404ae1d4|bafe8d1b-2df8-4262-a04d-1dd1088773aa"
       ],
       "meta": {
         "version": 2
@@ -536,11 +533,47 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
