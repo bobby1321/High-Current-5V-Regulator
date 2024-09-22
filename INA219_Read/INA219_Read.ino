@@ -56,7 +56,7 @@ void loop() {
         // Serial.print(" ");
         Serial.print(arr_ina[i].getCurrent_mA(), 4);
         Serial.print(" ");
-        Serial.print(arr_ina[i].getPower_mA(), 4);
+        Serial.print(arr_ina[i].getPower_mW(), 4);
         // Serial.print(" ");
         // Serial.print(arr_ina[i].getMathOverflowFlag());
         // Serial.print("\t\t");
