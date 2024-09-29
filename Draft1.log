@@ -1,0 +1,41 @@
+Circuit: * C:\Users\bapel\Documents\GitHub\High-Current-5V-Regulator\Draft1.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+006
+Initial Gmin=1e+006 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 5 µs.
+
+Date: Wed Sep 25 18:11:25 2024
+Total elapsed time: 0.361 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 19197
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 368
+matrix size = 136
+fillins = 37
+solver = Normal
+Thread vector: 4.5/2.5[3] 0.0/0.0[0] 1.2/0.7[3] 0.2/0.4[1]  2592/500
+Matrix Compiler1: 5.19 KB object code size  1.4/0.4/[0.3]
+Matrix Compiler2: 9.78 KB object code size  0.4/0.6/[0.3]
+

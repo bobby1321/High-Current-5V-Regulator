@@ -13,7 +13,7 @@ inputSlot = 1; loadSlot = 2;
 scopeIP = 5; scope = connectPowerSupply(scopeIP); fprintf(scope, '*RST');
 fprintf(scope, 'ACQuire:MODe SAMple');
 fprintf(scope, 'CH1:COUP DC');
-scopeVScale = 3; % max output volts/2
+scopeVScale = 3; % max output volts/4
 fprintf(scope, 'CH1:SCALE %i',scopeVScale);
 fprintf(scope, 'HORizontal:RECOrdlength 250000'); % 250,000 Pts
 fprintf(scope, 'HORizontal:SCAle 1.000E-3'); % 1ms scale
