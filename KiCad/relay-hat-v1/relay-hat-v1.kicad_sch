@@ -1617,168 +1617,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Interface_Expansion:TCA9554PW"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2150,7 +1988,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -2165,7 +2003,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
+			(property "Value" "SolderJumper_2_Bridged"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2191,7 +2029,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2209,7 +2047,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2218,7 +2056,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start -0.254 1.016)
 					(mid -1.2656 0)
@@ -2292,7 +2141,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3566,6 +3415,12 @@
 		(uuid "450939ce-8e66-4582-a294-d0da24dbd011")
 	)
 	(junction
+		(at 93.98 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46901cff-7b0a-4046-9f9e-4db433588254")
+	)
+	(junction
 		(at 118.11 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3582,12 +3437,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53fdd20e-0f03-4919-8612-c243e1835eb5")
-	)
-	(junction
-		(at 93.98 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5406ea30-8fd8-4785-8fe5-0a26d5dce18d")
 	)
 	(junction
 		(at 252.73 21.59)
@@ -3829,15 +3678,53 @@
 		(color 0 0 0 0)
 		(uuid "fdabe001-12e0-4e88-93b2-1d47750a0533")
 	)
-	(junction
-		(at 96.52 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe353c1a-b5b0-48ea-a78f-11b0c628afe3")
+	(no_connect
+		(at 115.57 172.72)
+		(uuid "2d272fec-17a0-4284-a32b-f3eb21711d5b")
+	)
+	(no_connect
+		(at 194.31 109.22)
+		(uuid "40c65921-8b8d-47fd-b638-44788fec206e")
+	)
+	(no_connect
+		(at 55.88 58.42)
+		(uuid "83aeeb2b-5942-415f-b970-29af6e06a2c9")
 	)
 	(no_connect
 		(at 34.29 138.43)
 		(uuid "983c2519-e785-4f7a-9ddc-f575956fc460")
+	)
+	(no_connect
+		(at 158.75 60.96)
+		(uuid "9c796eb5-3172-41d5-a268-0d915a098573")
+	)
+	(no_connect
+		(at 116.84 60.96)
+		(uuid "9ee31d1a-12c2-4fe2-85af-3894b596704c")
+	)
+	(no_connect
+		(at 194.31 83.82)
+		(uuid "a265de2e-fc09-4c20-86d0-c422a8d3a3ea")
+	)
+	(no_connect
+		(at 194.31 134.62)
+		(uuid "a61b2767-797a-4c78-b1d5-6c122aacb44b")
+	)
+	(no_connect
+		(at 116.84 121.92)
+		(uuid "d86a868c-517e-45c6-82e6-7c303deed1c0")
+	)
+	(no_connect
+		(at 54.61 106.68)
+		(uuid "db09ad2a-7079-4c38-b372-10d047bd7057")
+	)
+	(no_connect
+		(at 116.84 101.6)
+		(uuid "f0df34b4-bc0a-43ff-8b92-86b114298796")
+	)
+	(no_connect
+		(at 116.84 81.28)
+		(uuid "f7eb445e-043c-4a21-b3bc-7912c2ecf242")
 	)
 	(wire
 		(pts
@@ -5461,16 +5348,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 96.52) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c1739f-197a-4aa4-91c2-f6c4d1c18b56")
-	)
-	(wire
-		(pts
 			(xy 36.83 135.89) (xy 34.29 135.89)
 		)
 		(stroke
@@ -6649,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 213.36 30.48 90)
 			(effects
 				(font
@@ -6782,7 +6659,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 205.74 30.48 90)
 			(effects
 				(font
@@ -6985,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 175.26 30.48 90)
 			(effects
 				(font
@@ -7556,7 +7433,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 198.12 30.48 90)
 			(effects
 				(font
@@ -7744,7 +7621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 232.41 15.24 0)
 		(mirror x)
 		(unit 1)
@@ -7762,7 +7639,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "SolderJumper_2_Closed"
 			(at 231.1401 12.7 90)
 			(effects
 				(font
@@ -7789,7 +7666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 			(at 232.41 15.24 0)
 			(effects
 				(font
@@ -8111,7 +7988,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 190.5 30.48 90)
 			(effects
 				(font
@@ -10479,7 +10356,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 182.88 30.48 90)
 			(effects
 				(font
@@ -10642,32 +10519,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 90.17 167.64 180)
+		(lib_id "Device:R")
+		(at 90.17 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f583b474-d7cd-4b22-bc43-5897dc312401")
-		(property "Reference" "D9"
-			(at 90.17 161.29 0)
+		(uuid "f69cede1-9f99-4d67-b750-2935e708091b")
+		(property "Reference" "R12"
+			(at 90.17 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 90.17 163.83 0)
+		(property "Value" "10k"
+			(at 90.17 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 90.17 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 90.17 167.64 0)
 			(effects
 				(font
@@ -10676,34 +10562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 90.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 90.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Description" "Resistor"
 			(at 90.17 167.64 0)
 			(effects
 				(font
@@ -10713,15 +10572,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "10b57faf-ce4d-4d4d-9a50-b3e6c5022181")
+			(uuid "5931ee41-9fa2-4700-bbec-934e88e07c21")
 		)
 		(pin "1"
-			(uuid "161bb9b3-015d-407a-b3a7-49170e61e211")
+			(uuid "434d82ea-92a2-4017-ad38-6171cf795561")
 		)
 		(instances
 			(project "relay-hat-v1"
 				(path "/34d803bb-2b43-40ec-9a9e-8066d156d755"
-					(reference "D9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10603,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 220.98 30.48 90)
 			(effects
 				(font
@@ -10957,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "820"
 			(at 167.64 30.48 90)
 			(effects
 				(font
