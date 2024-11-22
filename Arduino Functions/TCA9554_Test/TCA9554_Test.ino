@@ -6,7 +6,7 @@ void setup() {
   delay(100);
   Wire.beginTransmission(33);
   Wire.write(3);
-  Wire.write(0);
+  Wire.write(255); // 0 to 255 for each channel
   Serial.println(String(Wire.endTransmission()));
   delay(100);
   Wire.beginTransmission(33);

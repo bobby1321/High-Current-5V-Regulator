@@ -4169,7 +4169,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2000CDGK"
+		(property "Value" "TPS2001CDGK"
 			(at 173.99 93.98 0)
 			(effects
 				(font
@@ -5792,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2000CDGK"
+		(property "Value" "TPS2001CDGK"
 			(at 173.99 68.58 0)
 			(effects
 				(font
