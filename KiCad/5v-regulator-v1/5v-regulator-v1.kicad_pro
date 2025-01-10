@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "courtyards_overlap|189918882|63096014|1f850ac2-80d4-40cd-af18-3fad9902b449|b2432522-b910-4b40-b615-cf0f50f820b6",
-        "courtyards_overlap|189918883|75403984|11645c9a-5413-4eb3-a87b-534e404ae1d4|bafe8d1b-2df8-4262-a04d-1dd1088773aa"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -82,7 +79,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
