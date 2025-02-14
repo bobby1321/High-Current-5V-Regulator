@@ -3,8 +3,8 @@ SymbolType BLOCK
 RECTANGLE Normal -32 -56 32 56
 WINDOW 0 0 -56 Bottom 2
 WINDOW 3 0 56 Top 2
-SYMATTR Prefix X
 SYMATTR Value LM339
+SYMATTR Prefix X
 SYMATTR ModelFile C:\Users\bapel\Documents\GitHub\High-Current-5V-Regulator\LM339.sub
 PIN -32 -16 RIGHT 8
 PINATTR PinName In+
